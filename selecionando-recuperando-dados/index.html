@@ -1,11 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Salvar nome - Local Storage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <main class="container">
+        <h1>Salvar e recuperar nome</h1>
+
+        <label for="nomeInput">Seu nome:</label>
+        <input id="nomeInput" type="text" placeholder="Digite seu nome" />
+
+        <div class="buttons">
+            <button id="salvarBtn">Salvar nome</button>
+            <button id="limparBtn">Limpar nome</button>
+        </div>
+
+        <p id="mensagem" class="mensagem" aria-live="polite"></p>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
